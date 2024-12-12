@@ -7,4 +7,4 @@ def strcomparagom(str):
             return True
     return False
 
-print(strcomparagom("racecars"))
+print(strcomparagom("lina"))
