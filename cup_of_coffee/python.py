@@ -1,10 +1,14 @@
-Tickets = ['ticket1', 'ticket2', 'ticket3', 'ticket4', 'tickets5']
+cup = input('D0 you need cup?  yes/no ')
+wather = input('Do you need hot wather?  yes/no ')
+suger = input('Do you need suger?  yes/no ')
 
-T = 0
+addMilk = cup + wather
+optionl = print('Do you need suger  yes/no? ' + addMilk)
+if addMilk > optionl:
+    print(optionl)
 
-for ticket in Tickets:
-    T = T + 1
-    if T == 1:
-        T = T + 1
+input("put your cup in to mation")
 
-print(T)
+print(f'{addMilk}')
+
+input("here is you a cup of coffee.")
